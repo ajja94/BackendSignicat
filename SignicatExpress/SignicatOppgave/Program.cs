@@ -10,8 +10,6 @@ namespace SignicatOppgave
 {
     class Program
     {
-        //"t780ce0c9da4f48fbad63d30ae59d2309"
-        //"NgMhU4LtXncPIdREGCGY1FJWJA77PWoY3nWYtsEx3eoEBg0Bg0NvBFh5aL3NdtJ3"
         static async Task Main(string[] args)
         {
             var clientInfo = new Clients();
@@ -51,8 +49,6 @@ namespace SignicatOppgave
                 ColorTheme = ColorTheme.Default,
                 ThemeMode = ThemeMode.Dark
             }
-
-
             });
 
             OpenUrl(session.Url);
